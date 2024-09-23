@@ -344,7 +344,7 @@ body.active { overflow: hidden; }
 }
 .navbar-item{
   gap: 5px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_30); }
 
@@ -353,6 +353,7 @@ body.active { overflow: hidden; }
   font-weight: var(--fw-700);
   padding: 12px 30px;
   transition: var(--transition-1);
+  border-radius: 50px;
 }
 
 .navbar-link:is(:hover, :focus, .active) { color: var(--blue-crayola); }
